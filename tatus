@@ -1,0 +1,212 @@
+[33mcommit 9eae6c737be49b101448f72305f48b1d47393632[m[33m ([m[1;36mHEAD -> [m[1;32mInvoiceTest[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/ProductTest[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mProductTest[m[33m)[m
+Author: student8 <beata.zawidlak@gmail.com>
+Date:   Sun Jan 19 10:51:20 2020 +0100
+
+    another change
+
+[33mcommit 2dd32bb1bf4e891609097b96bd1fb3d87da05a43[m
+Author: student8 <beata.zawidlak@gmail.com>
+Date:   Sun Jan 19 10:47:24 2020 +0100
+
+    further work
+
+[33mcommit b08c80342c6d0d5ed826a6648e862511fb6adc0d[m
+Author: student8 <beata.zawidlak@gmail.com>
+Date:   Sun Jan 19 10:11:31 2020 +0100
+
+    further changes
+
+[33mcommit 10514829a805890286260a02a68f7e6220b892e8[m
+Author: student8 <student8@pcoip.ki.agh.edu.pl>
+Date:   Sun Jan 19 09:53:20 2020 +0100
+
+    fix first test
+
+[33mcommit 61b2dc7fb0126dfaaf516a1025c7ee360c1ed194[m
+Merge: e03c145 2e94444
+Author: zawibe <59664200+zawibe@users.noreply.github.com>
+Date:   Sun Jan 19 09:29:04 2020 +0100
+
+    Merge pull request #1 from fracz/specs
+    
+    Specifications for today's lab
+
+[33mcommit 2e94444bac854c7311e9360d920424631bcc0427[m[33m ([m[1;31morigin/specs[m[33m)[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Wed Jan 8 15:31:13 2020 +0100
+
+    Specs!
+
+[33mcommit e03c1456217feff6a64735d811c3cc275a85ac95[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Wed Jan 8 15:30:50 2020 +0100
+
+    No specs yet. Wait for it...
+
+[33mcommit 38af580bd50dae23eea4834a927fdf2686765570[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sun Feb 25 21:58:32 2018 +0100
+
+    Set language level to 1.8 in pom.xml
+
+[33mcommit 9ba9d4e0643b50895cf043efaf334bc5c2244243[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 3 12:28:25 2018 +0100
+
+    Fix testInvoiceHasTheSameSubtotalAndTotalIfTaxIsZero
+
+[33mcommit a0a5b450b4aca5908d32edb3682ef043f6e622b1[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Jan 27 22:19:03 2018 +0100
+
+    Be clear that Invoice contains products
+
+[33mcommit 662fdbbb1eb8a6cf95e053de0820a49a7636ea8a[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Jan 27 21:59:10 2018 +0100
+
+    Adjust project name in pom.xml
+
+[33mcommit 95b1d537822e8b70eb152cdfe995015fec57d82c[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 25 19:21:09 2017 +0100
+
+    Write tests using matchers
+
+[33mcommit 8e7d5dad97d1b6acf43bb9e0a339516f6228624d[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 25 18:24:10 2017 +0100
+
+    Add hamcrest to maven dependencies
+
+[33mcommit fb142c80e9fbd1e9e5e5c6c4f3549fdb028fd427[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 25 18:20:08 2017 +0100
+
+    Do not static import the assertEquals
+
+[33mcommit ae77b8404ace0c679b4c26625dc38a517faafed9[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sun Feb 12 00:29:49 2017 +0100
+
+    Adjust project name
+
+[33mcommit 52bea7062a4a1d6d4f476b9a30fa6a7bc0f318d5[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 23:59:22 2017 +0100
+
+    Fix comment in the test
+
+[33mcommit 95dc71a7d0ff6ffac310deed12704ce11daad10b[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 23:53:11 2017 +0100
+
+    Remove unnecessary check in the invoice
+
+[33mcommit 832a1be64b5471a1c2504fb4ed3c55ce15f1f365[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 23:50:07 2017 +0100
+
+    Fix newName argument
+
+[33mcommit 76dd03403efb19d1528bf9cd486699679888e827[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 23:44:36 2017 +0100
+
+    Introduce Products hierarchy
+
+[33mcommit 1dd0226d43a45c86edefc9d896e3d61e526f2838[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 23:22:52 2017 +0100
+
+    Fix total calculations
+
+[33mcommit 31a15062d90d5935dabe978f514cb1d582f89e0e[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 23:12:43 2017 +0100
+
+    Fix BigDec comparison for the last time
+
+[33mcommit 46da3dcea8ab1b80b2b7496c76148a430724d2f5[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 22:57:29 2017 +0100
+
+    Clear invoince implementation
+
+[33mcommit 258c051dc60081a20fb36c3a180af1ee64a4a17e[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 22:54:39 2017 +0100
+
+    Remove unused Invoce.getNumber() method
+
+[33mcommit af82f0197089e9ad77c48999eef4988d0c5cccd4[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 22:54:01 2017 +0100
+
+    Fix BigDecimal comparison in InvoiceTest
+
+[33mcommit 9b655a8b4c9116eb4f1e6af424751d0cf568dac3[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 22:39:46 2017 +0100
+
+    Fix biginteger comparison one more time
+
+[33mcommit d8823d8bb2d11acc320064e728a312b983d3ac63[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 22:33:20 2017 +0100
+
+    Ignore eclipse project files
+
+[33mcommit 4cc48a3e2e09d21a8cdeaaa921ea0e6e92566afd[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 22:31:32 2017 +0100
+
+    Get rid of classpath and project files
+
+[33mcommit 1c37b63206b0652b1cc0ddd98ad83adfd45ef6d4[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 22:29:52 2017 +0100
+
+    Fix bigdecimal assertEquals
+
+[33mcommit 9a972936951870236da4f55db5205802625832c3[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 22:22:40 2017 +0100
+
+    Remove target
+
+[33mcommit f1a13d294bad60aa50bca9a66fa2e56c2a48ebfc[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 22:20:07 2017 +0100
+
+    Update project name to mwo-invoice
+
+[33mcommit bb2c3a26f66ddba3ba836a7f4662ede4de86c427[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Sat Feb 11 22:19:29 2017 +0100
+
+    Remove static factory method from Invoice
+
+[33mcommit 4387cdf8e0817979dc550718b6ef7480f92f48b4[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Fri Feb 10 23:27:53 2017 +0100
+
+    Make the Invoince actually contain the products
+
+[33mcommit 540459c7745a03efd27c4262b0e29b827da05c90[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Wed Feb 8 22:35:33 2017 +0100
+
+    Rename java2 package to invoice
+
+[33mcommit 0c010b021dd7f94edeea2e3f2beefa4169be6820[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Wed Feb 8 22:34:03 2017 +0100
+
+    Clean the implementation
+
+[33mcommit 78a0673964f2cb7188e9ecb817931e5dcdb4c092[m
+Author: Wojciech Frącz <fraczwojciech@gmail.com>
+Date:   Wed Feb 8 17:42:25 2017 +0100
+
+    Initial invoice implementation
