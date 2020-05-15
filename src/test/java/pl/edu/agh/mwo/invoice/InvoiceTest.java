@@ -134,8 +134,14 @@ public class InvoiceTest {
     public void testPrintingPossibility () {
     	String invoicePrint = invoice.print();
     	Assert.assertTrue(invoicePrint !=null);
+    }  
+    
+    @Test
+    public void testPrintNumber () {
+    	String invoicePrint = invoice.print();
+    	String number = String.valueOf(invoice.getNumber());
+    	Assert.assertThat(invoicePrint, Matchers.containsString(number));
     }
-       
 }
 
 

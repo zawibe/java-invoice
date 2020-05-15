@@ -48,7 +48,23 @@ public class Invoice {
     }
 
 	public String print() {
-		String invoicePrint = "";		
-		return invoicePrint;
+			String invoicePrint = String.valueOf(getNumber());
+			return invoicePrint;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
