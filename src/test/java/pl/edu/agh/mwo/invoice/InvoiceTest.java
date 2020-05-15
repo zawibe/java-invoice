@@ -129,4 +129,16 @@ public class InvoiceTest {
         int number2 = new Invoice().getNumber();
         Assert.assertThat(number1, Matchers.lessThan(number2));
     }
+    
+    @Test
+    public void testPrintingPossibility () {
+    	String invoicePrint = invoice.print();
+    	Assert.assertTrue(invoicePrint !=null);
+    }
+       
 }
+
+
+
+
+
