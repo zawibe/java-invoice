@@ -1,5 +1,5 @@
 package pl.edu.agh.mwo.invoice;
-
+import org.hamcrest.Matchers;
 import java.math.BigDecimal;
 
 import org.hamcrest.Matchers;
@@ -141,6 +141,34 @@ public class InvoiceTest {
     	String invoicePrint = invoice.print();
     	String number = String.valueOf(invoice.getNumber());
     	Assert.assertThat(invoicePrint, Matchers.containsString(number));
+    }
+    
+    @Test
+    public void testPrintName () {
+    	invoice.addProduct(new OtherProduct("Mlotek ", new BigDecimal(10.50)));
+    	String invoicePrint = invoice.print();
+    	Assert.assertThat(invoicePrint, Matchers.containsString("\nMlotek"));
+    }
+    
+    @Test
+    public void testPrintQuantity () {
+    	invoice.addProduct(new OtherProduct("Wino ", new BigDecimal(10.50)), 2);
+    	String invoicePrint = invoice.print();
+    	Assert.assertTrue(invoicePrint.contains("2"));   	
+    }
+    
+     @Test
+    public void testPrintPrice () {
+    	invoice.addProduct(new OtherProduct("Wino ", new BigDecimal(10.50)), 2);
+    	String invoicePrint = invoice.print();
+    	Assert.assertThat(invoicePrint, Matchers.containsString("10.5"));
+     }
+     
+    @Test
+    public void testPrintInfoAtTheEnd () {
+    	String invoicePrint = invoice.print();
+    	invoice.addProduct = new OtherProduct("Mlotek", new BigDecimal(10.50));
+    	Assert.assertThat(invoicePrint, Matchers.containsString("Liczba pozycji: "));
     }
 }
 
