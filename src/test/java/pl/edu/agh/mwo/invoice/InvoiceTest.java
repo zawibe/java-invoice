@@ -170,6 +170,13 @@ public class InvoiceTest {
     	invoice.addProduct = new OtherProduct("Mlotek", new BigDecimal(10.50));
     	Assert.assertThat(invoicePrint, Matchers.containsString("Liczba pozycji: "));
     }
+
+	@Test
+	public void testDuplicates() { 
+		invoice.addProduct(new TaxFreeProduct("Kubek", new BigDecimal("5")), 2);
+		invoice.addProduct(new TaxFreeProduct("Kubek", new BigDecimal("5")), 2);
+		Assert.assertEquals(invoice.productQuantity(), 2);	
+	}
 }
 
 
