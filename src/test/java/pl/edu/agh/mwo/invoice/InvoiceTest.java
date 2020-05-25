@@ -178,8 +178,3 @@ public class InvoiceTest {
 		Assert.assertEquals(invoice.productQuantity(), 2);	
 	}
 }
-
-
-
-
-
